@@ -1,7 +1,7 @@
 style:
 	flake8 restdoctor
 types:
-	mypy --python-version 3.8 restdoctor
+	mypy restdoctor
 test:
 	python -m pytest -p no:warnings --disable-socket
 coverage:
