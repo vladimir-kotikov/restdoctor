@@ -17,7 +17,7 @@ def get_long_description() -> str:
 
 
 setup(
-    name='restdoctor',
+    name='fastdoctor',
     description='BestDoctor\'s batteries for REST services.',
     long_description=get_long_description(),
     long_description_content_type='text/markdown',
