@@ -21,6 +21,7 @@ jobs:
         run: |
           pip install -r requirements.txt
           pip install -r requirements-dev.txt
+          sudo apt-get install -y --no-install-recommends gdal-bin
       - name: Run checks
         run: make style types test
   publish:
